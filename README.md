@@ -1,5 +1,5 @@
-## Music server and client project, with connection load balancing
-
+# Music server and client project, with connection load balancing
+![Mi proyecto](assets/music-server.jpeg)
 This project consisted in developing a system that allowed a set of devices using Linux to communicate with each other using sockets and the TCP/IP network, in order to transfer music from a server to a client. 
 
 The system allows multiple music servers, multiple concurrent clients and has a connection load balancing server that helps with connecting each new user to the server that has the least load at the moment. 
